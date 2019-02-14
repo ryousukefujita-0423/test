@@ -1,0 +1,67 @@
+<!DOCTUPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <title>演習16</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    
+    <body>
+        <header>
+            ~演習16~
+        </header>
+        <div class="aaa">
+                ↓↓↓↓↓下記に入力してください↓↓↓↓↓
+        </div>
+        
+        
+        <div class="aa">
+            お問い合わせフォーム
+        </div>
+        
+        <div class="bb">
+            <form method="post" action="mail_confirm.php">
+                <div class="bba">
+                    名前<br>
+                    <input type="text" size="40px" name="name">
+                    <span class="ex">
+                        例)　田中太郎
+                    </span>
+                </div>
+                <div class="bbb">
+                    メールアドレス<br>
+                    <input type="text" size="40px" name="mail"> 
+                    <span class="ex">
+                        例)　aaa@yahoo.co.jp
+                    </span>
+                </div>
+                <div class="bbc">
+                    年齢<br>
+                    <select name="age">
+                        <option>選択してください</option>
+                        <script>
+                            for(var i = 0; i <=100; i++){
+                                document.write("<option>");
+                                document.write(i);
+                                document.write("</option>");
+                            }
+                        </script>
+                    </select>
+                </div>
+                <div class="bbd">
+                    コメント<br>
+                    <textarea rows="7" cols="40" placeholder="適当に入力してください" name="comments"></textarea>
+                </div>
+                <div class="bbe">
+                    <input type="submit" value="送信する">
+                </div>     
+            </form>
+        </div>
+        
+        <footer>
+        </footer>
+
+
+        
+    </body>  
+</html>

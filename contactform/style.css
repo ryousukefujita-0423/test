@@ -1,0 +1,97 @@
+body{
+    background: repeating-linear-gradient(45deg, lightblue, lightblue 10px, white 0, white 20px);
+}
+
+header{
+    width: 100%;
+    height: 60px;
+    color: white;
+    background-color: lightblue;
+    line-height: 60px;
+    text-align: center;
+    font-family: impact;
+    font-size: 30px;
+}
+
+.aaa{
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: bold;
+    animation: blinkAnimeS1 2s infinite alternate;
+}
+@keyframes blinkAnimeS1{
+ 0%  { color : yellow }  /* 33%ごとに色を入れ替え */
+ 33% { color : blue   }
+ 66% { color : green  }
+ 100%{ color : red    }
+}
+
+
+
+.aa{
+    width: 40%;
+    height: 40px;
+    background-color: lightblue;
+    border-left: 3px solid red;
+    margin: 0 auto;
+    line-height: 50px;
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+.bb{
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 40%;
+    height: 500px;
+    background-color: lightblue;
+    border: 1px solid gray;
+    padding-left: 20px;
+    
+}
+
+.bba{
+    padding-top: 20px;
+}
+
+.bbb{
+    padding-top: 40px;
+}
+
+.bbc{
+    padding-top: 40px;
+}
+
+.bbd{
+    padding-top: 40px;
+}
+
+.bbe{
+    margin-top: 40px;
+}
+
+.ex{
+    padding-left: 50px;
+}
+
+footer{
+    width: 100%;
+    height: 30px;
+    margin-top: 30px;
+    background-color: lightblue;
+    margin-bottom: 0 auto;
+}
+
+
+
+
+
+
+
+
+
+
+
