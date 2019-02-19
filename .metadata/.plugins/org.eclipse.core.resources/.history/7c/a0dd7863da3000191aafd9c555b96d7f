@@ -1,0 +1,20 @@
+
+public class HelloWorld {
+
+	public static void main(String[] args) {
+		// TODO 自動生成されたメソッド・スタブ
+
+		int i = 10;
+		String a = "田中";
+
+		if (i < 15) {
+			System.out.println("15以下です");
+		}
+
+		if (a.equals("田中")) {
+			System.out.println(a + "さん");
+		}
+
+	}
+
+}

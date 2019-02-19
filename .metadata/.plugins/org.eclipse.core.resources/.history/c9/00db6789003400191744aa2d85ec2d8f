@@ -1,0 +1,31 @@
+/**
+ *
+ */
+package sampleDB2;
+
+/**
+ * @author internousdev
+ *
+ */
+
+import java.sql.DriverManager;
+import java.sql.SQLException;
+import java.sql.Connection;
+
+/**
+ * <p>
+ * MySQLに接続するためのユーティリティクラスです。<br>
+ * ルートアカウントにてDBに接続されます。<br>
+ */
+
+public class DBConnector {
+	/**
+	 * JDBC ドライバー名
+	 */
+	private static String driverName = "com.mysql.jdbc.Driver";
+	/**
+	 * データベース接続 URL
+	 */
+	private static String user = "root";
+
+}

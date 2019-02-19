@@ -1,0 +1,11 @@
+package jp.co.internous.action;
+
+public class Phone {
+	public void play(){
+		System.out.println("再生");
+	}
+
+
+
+
+}

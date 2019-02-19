@@ -1,0 +1,38 @@
+package testDB;
+
+public class ChekLoadJDBC {
+
+	public static void main(String[] args) throws InstantiationException, IllegalAccessException {
+		// TODO 自動生成されたメソッド・スタブ
+		String msg = "";
+
+		try {
+			Class.forName("com.mysql.jdbc.Driver").newInstance();
+			msg = "ドライバのロードに成功しました";
+		} catch (ClassNotFoundException e) {
+			msg = "ドライバのロードに失敗しました";
+		}
+		System.out.println(msg);
+
+	}
+
+}
+
+
+
+drop database if exists testdb;
+create database testdb;
+use testdb;
+
+create table test_table(
+user_id int,
+user_name varchar(255),
+password varchar(255)
+);
+
+
+insert into test_table values(1,"taro","123");
+insert into test_table values(2,"jiro","456");
+insert into test_table values(3,"hanako","789");
+
+

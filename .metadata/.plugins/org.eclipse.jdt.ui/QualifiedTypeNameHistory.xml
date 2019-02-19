@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Hyuman"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.HyumanAge"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.HyumanAddress"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.util.Map"/>
+<fullyQualifiedTypeName name="java.util.HashMap"/>
+<fullyQualifiedTypeName name="java.util.Map.Entry"/>
+<fullyQualifiedTypeName name="java.util.Set"/>
+<fullyQualifiedTypeName name="java.util.HashSet"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Robot"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Person"/>
+<fullyQualifiedTypeName name="java.util.PropertyPermission"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Mp3Player"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Mp3player"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.SmartPhone"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Phone"/>
+<fullyQualifiedTypeName name="jp.co.internous.action.Newfunction"/>
+<fullyQualifiedTypeName name="java.lang.String"/>
+</qualifiedTypeNameHistroy>
