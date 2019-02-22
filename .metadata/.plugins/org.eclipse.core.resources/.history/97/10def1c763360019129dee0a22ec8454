@@ -1,0 +1,17 @@
+package com.internousdev.webproj2.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.webproj2.util.DBConnector;
+
+import javafx.scene.effect.BlurType;
+
+public class HelloStrutsDAO {
+
+	public boolean select(){
+		boolean ret = false;
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+	}
+
+}

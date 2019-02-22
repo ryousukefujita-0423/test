@@ -1,0 +1,15 @@
+package com.internousdev.webproj2.action;
+
+import com.internousdev.webproj2.dao.LoginDAO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport {
+	private String username;
+	private String password;
+
+	public String execute() {
+		LoginDAO dao = new LoginDAO();
+		boolean b = select(username, password);
+	}
+
+}

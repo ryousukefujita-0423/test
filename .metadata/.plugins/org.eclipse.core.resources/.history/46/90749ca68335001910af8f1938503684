@@ -1,0 +1,22 @@
+package com.internousdev.login.action;
+
+import java.sql.SQLException;
+import com.internousdev.login.dao.loginDAO;
+import com.internousdev.login.dto.loginDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class LoginAction extends ActionSupport {
+	private String name;
+	private String password;
+
+	public String execute() throws SQLException {
+		String ret = ERROR;
+
+		loginDAO dao = new LoginDAO();
+		LoginDTO dto = new LoginDTO():
+
+		dto = dao.select(name, password);
+
+	}
+
+}
