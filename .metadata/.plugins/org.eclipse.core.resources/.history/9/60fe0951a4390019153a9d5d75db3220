@@ -1,0 +1,10 @@
+package com.internousdev.webproj3.dao;
+
+import java.sql.Connection;
+
+import com.internousdev.webproj3.dto.InquiryDTO;
+import com.internousdev.webproj3.util.DBConnector;
+
+public class InquiryCompleteDAO {
+
+}

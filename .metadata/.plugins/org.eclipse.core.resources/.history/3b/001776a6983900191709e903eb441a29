@@ -1,0 +1,11 @@
+package com.internousdev.webproj3.dao;
+
+public class LoginDAO {
+	public String username;
+	public String password;
+
+	public LoginDTO select(String username, String password) {
+		LoginDTO dto = new LoginDAO();
+	}
+
+}

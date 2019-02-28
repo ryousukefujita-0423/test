@@ -1,4 +1,0 @@
-drop database if existsd sampledb;
-create database sampledb;
-use sampledb;
-

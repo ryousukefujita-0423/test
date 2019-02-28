@@ -1,6 +1,0 @@
-package jp.co.internous.action;
-
-public class Test {
-	Person taro = new Person();
-
-}

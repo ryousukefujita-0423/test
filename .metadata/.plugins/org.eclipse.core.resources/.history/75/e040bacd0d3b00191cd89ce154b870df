@@ -1,0 +1,9 @@
+package com.internousdev.webproj4.dao;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class TestDAO {
+	List<LoginDTO> loginDTOList = new ArrayList<LoginDTO>();
+
+}
