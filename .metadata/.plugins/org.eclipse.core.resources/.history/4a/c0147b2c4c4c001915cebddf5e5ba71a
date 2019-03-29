@@ -1,0 +1,23 @@
+package com.internousdev.ecsite.dao;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.util.ArrayList;
+
+import com.internousdev.ecsite.dto.BuyItemDTO;
+import com.internousdev.ecsite.utill.DBConnector;
+
+public class MenuDAO {
+
+	public ArrayList<BuyItemDTO> select(int item_type){
+		DBConnector db = new DBConnector();
+		Connection con = db.getConnection();
+		String sql = "select id, item_name, item_price,item_stock from item_info_transaction where item_type = ?";
+
+		try{
+			PreparedStatement ps = con.prepareStatement(sql);
+			ps.setInt(1, item_type);
+		}
+	}
+
+}

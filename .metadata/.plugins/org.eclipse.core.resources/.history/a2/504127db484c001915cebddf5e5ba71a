@@ -1,0 +1,10 @@
+package com.internousdev.ecsite.action;
+
+import com.internousdev.ecsite.dao.BuyItemDAO;
+
+public class MenuAction {
+	private int item_type;
+	private String search;
+	private BuyItemDAO buyItemDAO = new BuyItemDAO();
+
+}

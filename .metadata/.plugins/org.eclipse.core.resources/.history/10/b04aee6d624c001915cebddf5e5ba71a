@@ -1,0 +1,19 @@
+package com.internousdev.ecsite.action;
+
+import java.util.ArrayList;
+
+import com.internousdev.ecsite.dao.MenuDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class SearchAction extends ActionSupport {
+	private String search;
+	ArrayList<BuyItemDTO> buyItemDTOList = new ArrayList<BuyItemDTO>();
+	public SearchDAO searchDAO = new SearchDAO();
+
+	public String execute() {
+		buyItemDTOList =
+
+	}
+
+}

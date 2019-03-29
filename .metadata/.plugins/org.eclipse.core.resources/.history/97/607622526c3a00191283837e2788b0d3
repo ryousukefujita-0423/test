@@ -1,9 +1,0 @@
-package com.internousdev.webproj4.dao;
-
-import java.util.ArrayList;
-import java.util.List;
-
-public class InquiryCompleteDAO {
-	List<InquiryDTO> inquiryDTOList = new ArrayList<InquiryDTO>();
-
-}

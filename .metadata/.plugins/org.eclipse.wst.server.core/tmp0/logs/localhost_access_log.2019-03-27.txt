@@ -1,0 +1,9 @@
+127.0.0.1 - - [27/Mar/2019:17:19:48 +0900] "GET / HTTP/1.1" 404 1019
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:50 +0900] "GET /ecsite/ HTTP/1.1" 200 1059
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:50 +0900] "GET /ecsite/css/style.css HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:50 +0900] "GET /ecsite/img/trbackba.jpg HTTP/1.1" 304 -
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:52 +0900] "POST /ecsite/HomeAction.action;jsessionid=8257DCC083F3A2450DD02B8322C10D87 HTTP/1.1" 200 1771
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:56 +0900] "POST /ecsite/LoginAction.action HTTP/1.1" 200 1832
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:19:59 +0900] "GET /ecsite/MenuAction.action?item_type=1 HTTP/1.1" 200 4839
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:20:03 +0900] "GET /ecsite/MyPageAction.action HTTP/1.1" 200 4654
+0:0:0:0:0:0:0:1 - - [27/Mar/2019:17:20:06 +0900] "GET /ecsite/LogoutAction.action HTTP/1.1" 200 1015

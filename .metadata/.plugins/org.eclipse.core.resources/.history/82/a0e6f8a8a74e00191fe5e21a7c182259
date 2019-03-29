@@ -1,0 +1,24 @@
+package com.internousdev.ecsite.action;
+
+import java.sql.SQLException;
+import java.util.ArrayList;
+import java.util.Collection;
+
+import com.internousdev.ecsite.dao.BuyItemCartDAO;
+import com.internousdev.ecsite.dto.BuyItemDTO;
+import com.opensymphony.xwork2.ActionSupport;
+
+public class ItemListDeleteConfirmAction extends ActionSupport {
+	private Collection<String> checkList;
+	public ArrayList<BuyItemDTO> List = new ArrayList<BuyItemDTO>();
+	BuyItemDTO buyItemDTO = new BuyItemDTO();
+	BuyItemCartDAO buyItemCartDAO = new BuyItemCartDAO();
+
+	public String execute() throws SQLException {
+		for (String chek : checkList) {
+			List = buyItemCartDAO.select4(chek);
+		}
+		return SUCCESS;
+	}
+
+}
